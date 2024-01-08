@@ -20,7 +20,7 @@ generate_button.addEventListener('click', e => {
         remaining_exercises.splice(index, 1);
     }
 
-    window.location = '/workout.html?workout=' + JSON.stringify(workout);
+    window.location = '/hit_the_gym/workout.html?workout=' + JSON.stringify(workout);
 })
 
 function read_json(exercises) {

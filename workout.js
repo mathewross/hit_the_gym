@@ -6,7 +6,7 @@ create_list(workout);
 
 generate_button.addEventListener('click', e => {
     e.preventDefault();
-    window.location = '/index.html';
+    window.location = '/hit_the_gym/index.html';
 })
 
 function create_list(exercises) {
