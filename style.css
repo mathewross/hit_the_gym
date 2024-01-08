@@ -155,9 +155,7 @@ section {
 
 .form {
     margin: auto;
-    background: var(--secondary-color);
-    box-shadow: 0 10px 42px rgba(25,17,34,.1);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
 }
 
@@ -165,7 +163,7 @@ input, textarea, select {
     display: block;
     margin: auto;
     margin-bottom: 1rem;
-    width: 60%;
+    width: 40%;
     outline: none;
     padding: 0.4rem;
     border: 1px solid var(--secondary-color);
@@ -175,6 +173,7 @@ input {
     padding: 0.7rem;
     border-radius: 10px;
     border: 1px solid var(--secondary-color);
+    text-align: center;
 }
 
 ul {
