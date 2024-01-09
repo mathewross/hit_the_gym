@@ -13,7 +13,17 @@
             <h1>HIT THE GYM</h1>
         </header>
         <section id="home">
-            <button id="home-btn" class="btn">Back</button>
+            <button id="home-btn" class="btn">
+                Back
+            </button>
+        </section>
+        <section id="copy">
+            <div class="tooltip">
+                <button id="copy-btn" class="btn" onmouseout="outFunc()">
+                    <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+                    Copy To Clipboard
+                </button>
+            </div>
         </section>
         <div id="workout-container">
             <!-- Filled by params -->

@@ -57,20 +57,3 @@ function getRndInteger(min, max) {
 function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
-
-function updateList() {
-    fetch('github.com/repos/mathewross/hit_the_gym/contents/exercises.json', {
-        owner: 'mathewross',
-        repo: 'hit_the_gym',
-        path: 'exercises.json',
-        message: 'update exercises',
-        committer: {
-          name: 'Mathew Ros',
-          email: 'matross92@gmail.com'
-        },
-        content: JSON.stringify(all_exercises),
-        headers: {
-          'X-GitHub-Api-Version': '2022-11-28'
-        }
-      })
-}
